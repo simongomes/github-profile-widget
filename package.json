@@ -1,0 +1,33 @@
+{
+  "name": "github-profile-widget",
+  "version": "1.0.0",
+  "description": "Github Profile Widget",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "github-widget",
+    "profile-widget",
+    "github-profile-widget",
+    "widget"
+  ],
+  "author": "Simon Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.10"
+  }
+}
